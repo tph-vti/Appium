@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Single Testing Suite">
+    <!-- <listeners>
+        <listener class-name="ListenerTest" />
+    </listeners> -->
+    <test name="alert-tests">
+        <classes>
+            <class name="tests.MobileTest"/>
+        </classes>
+    </test>
+</suite>
